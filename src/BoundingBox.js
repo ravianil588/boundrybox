@@ -68,14 +68,6 @@ class BoundingBox extends React.Component{
        })
       };
       
-      displayDate = (e)=>{
-        var x = e.pageX - this.offsetLeft;
-        var y = e.pageY - this.offsetTop;
-        this.setState({
-            xCoordinates : x,
-            yCoordinates: y
-        })
-      }
     render(){
         return(
             <div className="boundingboxComponent">
